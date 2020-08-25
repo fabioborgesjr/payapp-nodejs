@@ -4,7 +4,7 @@
   "description": "",
   "main": "src/loader.js",
   "scripts": {
-    "dev": "nodemon",
+    "start": "nodemon",
     "production": "pm2 start src/loader.js --name payapp-nodejs"
   },
   "keywords": [],
@@ -17,12 +17,12 @@
     "express-query-int": "3.0.0",
     "install": "^0.13.0",
     "jsonwebtoken": "8.3.0",
-    "lodash": "4.17.10",
-    "mongoose": "5.2.12",
+    "lodash": "4.17.20",
+    "mongoose": "5.10.0",
     "mongoose-paginate": "5.0.3",
     "node-pre-gyp": "^0.14.0",
     "node-restful": "0.2.6",
-    "pm2": "3.0.4"
+    "pm2": "^4.4.1"
   },
   "devDependencies": {
     "nodemon": "1.18.4"
