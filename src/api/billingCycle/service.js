@@ -1,5 +1,5 @@
 const schema = require("./schema");
-const errorHandler = require("../commons/errorHandler");
+const errorHandler = require("../common/errorHandler");
 
 schema.methods(["get", "post", "put", "delete"]);
 schema.updateOptions({ new: true, runValidators: true });
